@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Starting a Blog"
+---
+
+Hi, welcome!
+
+I've always wanted to have a place/blog where I can post my work, thoughts, or
+even random stuff. And now, it's happening!
+
+Starting a blog was easy, but I'm still not sure about the name of this blog.
+I'm going to go with `dincland`, until I come up with a better name.
