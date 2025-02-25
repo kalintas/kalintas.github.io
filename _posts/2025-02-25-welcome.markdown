@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Starting a Blog"
+---
+
+Hi, welcome to my blog!
