@@ -9,7 +9,7 @@ Ama eduroamlara bağlanmak normal ağlara bağlanmaktan biraz daha zor, çünkü
 Bu blogda, belki başkaları benim kadar uğraşmak zorunda kalmaz diye size kendi Arch setupımda nasıl okulumun eduroamına bağlandığımı anlatacağım.
 
 Ben Arch linux ve Awesome WM kullanıyorum, network için ise de NetworkManager ve iwd kullanıyorum. Os'iniz farketmeksizin son ikisini kullanarak eduroama bağlanabilirsiniz.
-Öncelikle okulun sunduğu <u>[(CAT)yapılandırma yardımcı aracı](https://cat.eduroam.org/)</u>'nı indirmeniz gerekiyor. Normalde bu yazılımın bağlanabilmemiz için bütün yapılandırmayı yapması gerekiyor, ama benim durumumda tek başına yeterli değildi. 
+Öncelikle okulun sunduğu [(CAT)yapılandırma yardımcı aracı](https://cat.eduroam.org/)'nı indirmeniz gerekiyor. Normalde bu yazılımın bağlanabilmemiz için bütün yapılandırmayı yapması gerekiyor, ama benim durumumda tek başına yeterli değildi. 
 
 Bu programı çalıştırdıktan sonra 802.1X kimlik doğrulama yüzünden bir *wpa_supplicant* dosyası yazmamız gerekiyor.
 Sıradaki iş, /var/lib/iwd/eduroam.8021x konumuna bir dosya oluşturun ve aşağıdaki yazıyı kendi bilgilerinizle yapıştırın. 
@@ -38,5 +38,5 @@ Eğer bağlanırken herhangi bir hata yaşadıysanız, her zaman iwd journal'a h
 ```
 journalctl -u iwd --no-pager | tail -50
 ```
-iwd veya eduroam hakkında daha çok okumak istiyorsanız, <u>[wiki](https://wiki.archlinux.org/title/Iwd)</u>'yi ziyaret edebilirsiniz.
+iwd veya eduroam hakkında daha çok okumak istiyorsanız, [wiki](https://wiki.archlinux.org/title/Iwd)'yi ziyaret edebilirsiniz.
 
